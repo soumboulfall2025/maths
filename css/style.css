@@ -1,0 +1,9 @@
+input{
+    visibility: hidden;
+    transition: 3s ease;
+    transform: translate(100px , 100px);
+}
+
+.input{
+    visibility: visible;
+}
