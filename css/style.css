@@ -7,3 +7,79 @@ input{
 .input{
     visibility: visible;
 }
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: linear-gradient(to right, #e02e8a, #ece9e7);
+    
+}
+
+.h1{
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(to right, #e02e8a, #ece9e7);
+}
+
+.heureDate{
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+    .input{
+        transform: translate(0px , 0px);
+    }
+    input{
+        transform: translate(0px , 0px);
+    }
+    
+}
