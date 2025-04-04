@@ -108,6 +108,14 @@ let heure = document.getElementById('date')
 let jour = document.getElementById('jour')
 let heure1 = document.getElementById('bonjour2')
 let jourSemana = document.getElementById('semana')
+let secondTitre = document.querySelector('h2')
+
+// Second Titre
+secondTitre.textContent = 'Les conditions : if , else if , else && switch'
+secondTitre.addEventListener('click', () => {
+    secondTitre.classList.add('h1')
+    
+})
 
 
 // Affichage de la date
